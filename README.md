@@ -68,8 +68,8 @@ comments_replied_to.txt: Tracks comment IDs the bot has replied to.
 ## The Bot in Action: 
 
 <img width="950" height="950" alt="k4i5SOR" src="https://github.com/user-attachments/assets/c9851841-113a-43aa-83b7-bedaf4684673" />
-_
-*This robot automatically replies to comments containing the keyword "bot" with "I love robots!! Here is a photo of one"._
+
+_*This robot automatically replies to comments containing the keyword "bot" with "I love robots!! Here is a photo of one"._
 
 Credits:
 Built by Valerie Salinas – GitHub Profile
