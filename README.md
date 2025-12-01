@@ -15,7 +15,6 @@ I created this project to practice **Python scripting, working with APIs**, and 
 - Detects a keyword in comments ("bot").
 - Replies with a robot image hyperlink.
 - Keeps track of which comments it has already replied to.
-- Avoids replying to your own comments.
 - Can be run continuously with time delays to prevent spamming.
 
 
@@ -53,13 +52,13 @@ comments_replied_to.txt: Tracks comment IDs the bot has replied to.
 
 ## Example
 
-**Input comment: The user comments "hello 123 bot hello!" in the subreddit.
+****Input comment: The user comments "hello 123 bot hello!" in the subreddit.**
 
 
 <img width="716" height="312" alt="1_x31YUjYKBpgrKdgTeUg45A-1" src="https://github.com/user-attachments/assets/2e233267-621a-4bc6-b517-7fa46a6325ca" />
 
-
-**Bot response: RedditBotty automatically replies with a hyperlink to a robot image.
+**
+**Bot response: RedditBotty automatically replies with a hyperlink to a robot image.**
 
 
 <img width="426" height="121" alt="1_xqmpHdogaCtuFaTzy-AmPA" src="https://github.com/user-attachments/assets/ec285aea-0bff-40f7-a992-1680f7e07424" />
@@ -67,8 +66,8 @@ comments_replied_to.txt: Tracks comment IDs the bot has replied to.
 ## The Bot in Action: 
 
 <img width="950" height="950" alt="k4i5SOR" src="https://github.com/user-attachments/assets/c9851841-113a-43aa-83b7-bedaf4684673" />
-
-*This robot automatically replies to comments containing the keyword "bot" with "I love robots!! Here is a photo of one".
+_
+*This robot automatically replies to comments containing the keyword "bot" with "I love robots!! Here is a photo of one"._
 
 Credits:
 Built by Valerie Salinas – GitHub Profile
