@@ -32,10 +32,10 @@ Create an App in Reddit by visiting: https://www.reddit.com/prefs/apps. (Make su
 
 Add your credentials to config.py or set them as environment variables:
 ```python
-username = "reddit_username"<br>
-password = "reddit_password"<br>
-client_id = "client_id"<br>
-client_secret = "client_secret"<br>
+username = "reddit_username"
+password = "reddit_password"
+client_id = "client_id"
+client_secret = "client_secret"
 ```
 
 To Run the bot: 
