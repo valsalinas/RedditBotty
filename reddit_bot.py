@@ -3,7 +3,7 @@ import config
 import time
 
 def bot_login():
-    print ("Logging in...")
+    print("Logging in...")
     r = praw.Reddit(username = config.username,
             password = config.password,
             client_id = config.client_id,
@@ -13,7 +13,7 @@ def bot_login():
     return r
 
 def run_bot(r, comments_replied_to):
-    print ("Obtaining 10 comments...")
+    print("Obtaining 10 comments...")
     for comment in r.subreddit('test').comments(limit=10):
         if "bot" in comment.body and comment.id not in comments_replied_to and comment.author!= r.user.me():
             print ("String with \"bot\" found!! in comment " + comment.id)
@@ -22,7 +22,7 @@ def run_bot(r, comments_replied_to):
 
             comments_replied_to.append(comment.id)
 
-    print ("Sleep for 10 seconds")
+    print("Sleep for 10 seconds")
     time.sleep(10)
 
 def get_saved_comments():
