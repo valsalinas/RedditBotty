@@ -22,23 +22,26 @@ I created this project to practice **Python scripting, working with APIs**, and 
 ## Installation
 
 Make sure you have Python 3 installed.
-
-Install the required dependency:
+Use the package manager pip to install praw.
+```bash
   pip install praw
-
+```
 ## Usage
 
-Create a Reddit app on Reddit to get your client_id and client_secret.
+Create an App in Reddit by visiting: https://www.reddit.com/prefs/apps. (Make sure you are logged in) to get your client_id and client_secret.
 
 Add your credentials to config.py or set them as environment variables:
-
-username = "reddit_username"
-password = "reddit_password"
-client_id = "client_id"
-client_secret = "client_secret"
+```python
+username = "reddit_username"<br>
+password = "reddit_password"<br>
+client_id = "client_id"<br>
+client_secret = "client_secret"<br>
+```
 
 To Run the bot: 
+```python
   python reddit_bot.py
+```
 
 ## Configuration
 
