@@ -26,7 +26,7 @@ Make sure you have Python 3 installed.
 Install the required dependency:
   pip install praw
 
-Usage
+## Usage
 
 Create a Reddit app on Reddit to get your client_id and client_secret.
 
@@ -40,7 +40,7 @@ client_secret = "client_secret"
 To Run the bot: 
   python reddit_bot.py
 
-Configuration
+## Configuration
 
 reddit_bot.py: Main bot script.
 
@@ -51,6 +51,7 @@ comments_replied_to.txt: Tracks comment IDs the bot has replied to.
 The Bot in Action: 
 
 <img width="950" height="950" alt="k4i5SOR" src="https://github.com/user-attachments/assets/c9851841-113a-43aa-83b7-bedaf4684673" />
+
 *This robot automatically replies to comments containing the keyword "bot".
 
 Credits:
