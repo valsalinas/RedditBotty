@@ -52,11 +52,14 @@ config.py: Stores Reddit credentials (use environment variables for security).
 comments_replied_to.txt: Tracks comment IDs the bot has replied to.
 
 ## Example
+
 **Input comment: The user comments "hello 123 bot hello!" in the subreddit.
+
 <img width="716" height="312" alt="1_x31YUjYKBpgrKdgTeUg45A-1" src="https://github.com/user-attachments/assets/2e233267-621a-4bc6-b517-7fa46a6325ca" />
 
 
 **Bot response: RedditBotty automatically replies with a hyperlink to a robot image.
+
 <img width="426" height="121" alt="1_xqmpHdogaCtuFaTzy-AmPA" src="https://github.com/user-attachments/assets/ec285aea-0bff-40f7-a992-1680f7e07424" />
 
 ## The Bot in Action: 
